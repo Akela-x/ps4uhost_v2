@@ -1695,7 +1695,7 @@ export async function kexploit() {
     }
     
     if (localStorage.ExploitLoaded === "yes" && sessionStorage.ExploitLoaded != "yes") {
-        msgs.innerHTML = "GoldHEN is Already Loaded ...";
+        msgs.innerHTML = "GoldHEN уже Активен ...";
         return new Promise(() => {});
     }
  
@@ -1831,7 +1831,7 @@ function runPayload(PLfile) {
 kexploit().then(() => {
 	setTimeout(() => {
 		runPayload("./goldhen_2.4b18.10.bin");
-		msgs.innerHTML = "GoldHEN v2.4b18.10 Loaded ...";
+		msgs.innerHTML = "GoldHEN Активирован ...";
 	},500);
 }).catch(() => {
     msgs.innerHTML = "Failed to Load! Restart Your Console ...";
