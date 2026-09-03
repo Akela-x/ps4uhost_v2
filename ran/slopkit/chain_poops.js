@@ -173,7 +173,7 @@ let payloadRunning = false;
         if (!off) {
             var m = document.getElementById("msgs");
             if (m) {
-                m.innerHTML = 'No offsets for this firmware: <span style="color: red;">'
+                m.innerHTML = 'Для этой прошивки нет подходящих смещений: <span style="color: red;">'
                     + (key || "Unknown") + '</span>';
             }
             mark("NO-OFFSETS", key || "unknown");
