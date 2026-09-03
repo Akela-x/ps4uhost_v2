@@ -114,7 +114,7 @@ async function doJb() {
     msgs.innerHTML = "GoldHEN уже Активен ...";
     logger.info("===END===");
   } catch (e) {
-    msgs.innerHTML = "Failed to Load! Restart Your Console ...";
+    msgs.innerHTML = "Ошибка. Перезагрузите консоль ...";
     msgs.style.color = "yellow";
   }
 }
