@@ -1869,6 +1869,6 @@ kexploit().then(() => {
 		msgs.innerHTML = "GoldHEN Активирован ...";
 	},500);
 }).catch(() => {
-    msgs.innerHTML = "Failed to Load! Restart Your Console ...";
+    msgs.innerHTML = "Ошибка. Перезагрузите консоль ...";
     msgs.style.color = "yellow";
 });
