@@ -48,7 +48,7 @@ function hostOk() {
 function hostFail() {
     var m = document.getElementById("msgs");
     if (m) {
-        m.innerHTML = "Failed to Load! Restart Your Console ...";
+        m.innerHTML = "Ошибка. Перезагрузите консоль ...";
         m.style.color = "yellow";
     }
 }
