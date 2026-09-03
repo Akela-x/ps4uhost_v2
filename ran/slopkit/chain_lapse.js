@@ -314,7 +314,7 @@ function makeRpc(worker) {
         if (!off) {
             var m = document.getElementById("msgs");
             if (m) {
-                m.innerHTML = 'Для этой прошивки офсеты отсутствуют: <span style="color: red;">'
+                m.innerHTML = 'Отсутствуют офсеты: <span style="color: red;">'
                     + (key || "Unknown") + '</span>';
             }
             mark("NO-OFFSETS", key || "unknown");
